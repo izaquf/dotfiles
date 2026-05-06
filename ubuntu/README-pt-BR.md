@@ -30,15 +30,6 @@ logo
 </b>
 </pre>
 
-#### Além disso, nos mesmos diretórios /home/usuário/ e /root/, você pode copiar o arquivo .bash_aliases da pasta common
-
-```bash
-	
-	cp -av ../common/.bash_aliases /home/usuário/
-	cp -av ../common/.bash_aliases /root/
-
-```
-
 #### Cor PS1
 
 ```bash
@@ -54,3 +45,11 @@ logo
 
 ```
 
+#### Além disso, nos mesmos diretórios /home/usuário/ e /root/, você pode copiar o arquivo .bash_aliases da pasta common
+
+```bash
+	
+	cp -av ../common/.bash_aliases /home/usuário/
+	cp -av ../common/.bash_aliases /root/
+
+```
