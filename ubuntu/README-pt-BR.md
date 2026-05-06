@@ -7,23 +7,28 @@
 
 ### Instalação
 
-```bash
-	
-	chmod +x install.sh
-	
-	source install.sh
+#### Você pode adicionar as linhas aos seus arquivos /home/username/.bashrc e /root/.bashrc
 
-	./install.sh
+<pre>
+<b>
+# Logo
+logo() {
+	clear
+	echo ""
+	echo -e "\e[01;31m"
+	echo "     _    _ _                 _             "
+	echo "    | |  | | |               | |            "
+	echo "    | |  | | |__  _   _ _ __ | |_ _   _     "
+	echo "    | |  | | '_ \| | | | '_ \| __| | | |    "
+	echo "    | |__| | |_) | |_| | | | | |_| |_| |    "
+	echo "     \____/|_.__/ \__,_|_| |_|\__|\__,_|    "
+	echo -e "\e[0m"
+	echo ""
+}
 
-```
-
-#### Você pode adicionar a linha aos seus arquivos /home/usuário/.bashrc e /root/.bashrc
-
-```bash
-	
-	source /etc/ubuntulogo.sh
-
-```
+logo
+</b>
+</pre>
 
 #### Além disso, nos mesmos diretórios /home/usuário/ e /root/, você pode copiar o arquivo .bash_aliases da pasta common
 
