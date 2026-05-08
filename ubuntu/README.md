@@ -33,23 +33,17 @@ logo
 #### PS1 color
 
 ```bash
-	
-	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;31m\]@\h\[\033[00m\]:\[\033[01;37m\]\w\[\033[00m\]\$ '
-
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;34m\]\u\[\033[01;31m\]@\h\[\033[00m\]:\[\033[01;37m\]\w\[\033[00m\]\$ '
 ```
 #### Root user PS1 color
 
 ```bash
-
-	PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;37m\]\w\[\033[00m\]\$ '
-
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[01;37m\]\w\[\033[00m\]\$ '
 ```
 
 #### Additionally, in the same /home/username/ and /root/ directories, you can copy the .bash_aliases file from the common folder.
 
 ```bash
-	
-	cp -av ../common/.bash_aliases /home/username/
-	cp -av ../common/.bash_aliases /root/
-
+cp -av ../common/.bash_aliases /home/username/
+cp -av ../common/.bash_aliases /root/
 ```
